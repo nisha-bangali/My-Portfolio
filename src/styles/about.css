@@ -1,0 +1,38 @@
+/* ============================= */
+/* About Section */
+/* ============================= */
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.about-text {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-on-light);
+}
+
+.about-text p {
+  margin-bottom: var(--spacing-sm);
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,88 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: var(--spacing-md);
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  color: var(--text-on-light);
+}
+
+.tab-btn.active {
+  background: var(--accent);
+  color: var(--secondary);
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Filter Buttons */
+.skills-filter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.6rem 1.2rem;
+  border: 2px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: var(--transition);
+  font-weight: 600;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  background: var(--accent);
+  color: var(--secondary);
+}
+
+.skills-grid {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  background: var(--surface);
+  padding: var(--spacing-sm);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+}
+
+.skill-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0.5rem;
+}
+
