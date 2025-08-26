@@ -12,32 +12,34 @@ export const skills = [
 ];
 
 import weatherImage from "../assets/weatherAppCover.webp"
+import aiChatbotImage from "../assets/aiChatBot.webp"
+import jobBoardImage from "../assets/jobBoard.jpg"
+import quizAppImage from "../assets/quizApp.jfif"
+import { img } from "framer-motion/client";
 
 export const projects = [
   {
     title: "Weather App",
     desc: "Real-time weather updates by city name, responsive UI.",
     tags: ["JavaScript", "OpenWeather API", "CSS"],
-  //   img: "https://thumbs.dreamstime.com/b/hand-holding-smartphone-displaying-weather-app-rainy-forecast-raindrops-falling-blurred-background-technology-368785470.jpg",
-  // },
-  img: weatherImage
+    img: weatherImage,
   },
   {
     title: "AI Chatbot",
     desc: "Interactive chatbot with simple conversational logic.",
     tags: ["JavaScript", "HTML", "CSS"],
-    img: "https://www.shutterstock.com/image-vector/abstract-digital-businessman-tablet-uses-600nw-2357272619.jpg",
+    img: aiChatbotImage,
   },
   {
     title: "Job Board Application",
     desc: "Job listings with search & filter, clean responsive UI.",
     tags: ["React.js", "REST API", "Responsive"],
-    img: "https://www.theladders.com/wp-content/uploads/Best-Job-Board-Apps-for-Job-Seekers-in-2025-800x420.jpg",
+    img: jobBoardImage,
   },
   {
     title: "Quiz Application",
     desc: "Timer-based quiz app with score calculation and DB integration.",
     tags: ["Node.js", "Express.js", "MongoDB", "EJS"],
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBR0UopMuxdjunhfhDQMWLNDurSYsxZTCZmQ&s",
+    img: quizAppImage,
   },
 ];

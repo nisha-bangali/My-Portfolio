@@ -26,6 +26,11 @@ function About() {
               I enjoy solving problems, exploring new tools, and contributing to impactful
               solutions in web development.
             </p>
+            <div className="about-buttons">
+              <a href="#" className="btn btn-primary">
+                My Resume
+              </a>
+            </div>
           </div>
 
           {/* About Image */}

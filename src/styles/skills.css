@@ -61,7 +61,7 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
   display: flex;
   flex-wrap: wrap;
-  gap: var(--spacing-lg);
+  gap: var(--spacing-md);
   text-align: center;
   justify-content: center;
   align-items: center;

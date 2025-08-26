@@ -11,11 +11,11 @@ function Projects() {
           {projects.map((project, index) => (
             <div className="card project-item" key={index}>
               <div className="project-image">
-                <img src={project.image} alt={project.title} />
+                <img src={project.img} alt={project.title} />
               </div>
               <div className="project-details">
                 <h3>{project.title}</h3>
-                <p>{project.description}</p>
+                <p>{project.desc}</p>
                 <div className="project-tags">
                   {project.tags.map((tag, i) => (
                     <span key={i} className="project-tag">
