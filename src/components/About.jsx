@@ -46,11 +46,11 @@ function About() {
           </div>
 
           {/* About Image */}
-          <div className="flex-1 flex justify-center">
+          <div className="md:flex-1 flex justify-center">
             <img
               src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
               alt="Coding Setup"
-              className="rounded-lg shadow-lg max-w-md"
+              className="rounded-lg shadow-lg md:max-w-md"
             />
           </div>
         </div>
