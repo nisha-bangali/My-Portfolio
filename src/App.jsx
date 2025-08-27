@@ -1,33 +1,33 @@
 import React, { useEffect, useState } from "react";
-import Header from "./layouts/Navbar";
+import Header from "./components/layouts/Navbar";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Footer from "./layouts/Footer";
+import Footer from "./components/layouts/Footer";
 import Home from "./components/Home";
 
-import "./styles/globle.css";
+// import "./styles/globle.css";
 
 function App() {
 
- const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
     if (localStorage.getItem("theme") === "dark") {
       setIsDark(true);
-      document.body.classList.add("dark-theme");
+      document.body.classList.add("dark");
     }
   }, []);
 
   const toggleTheme = () => {
     setIsDark(!isDark);
     if (!isDark) {
-      document.body.classList.add("dark-theme");
+      document.body.classList.add("dark");
       localStorage.setItem("theme", "dark");
     } else {
-      document.body.classList.remove("dark-theme");
+      document.body.classList.remove("dark");
       localStorage.setItem("theme", "light");
     }
   };
@@ -42,6 +42,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+   
     </>
   );
 }
