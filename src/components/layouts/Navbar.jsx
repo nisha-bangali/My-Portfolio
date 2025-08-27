@@ -44,7 +44,7 @@ function Header() {
             )}
 
             {/* Theme Toggle */}
-            <button onClick={toggleTheme} className="ml-2">
+            <button onClick={toggleTheme} className="text-center w-10">
             {theme === "dark" ? (
               <i className="fas fa-sun text-blue-800"></i>
             ) : (

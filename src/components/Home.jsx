@@ -6,7 +6,7 @@ function Home() {
   return (
     <section
       id="home"
-      className="pt-32 pb-20 mt-12 bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300"
+      className="pt-32 pb-20 md:mt-12 mt-6 bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300"
     >
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
@@ -25,7 +25,7 @@ function Home() {
             <div className="flex gap-4 justify-center md:justify-start">
               <a
                 href="#projects"
-                className="px-6 py-3 rounded-lg bg-blue-500 text-white font-semibold shadow hover:bg-blue-600 transition"
+                className="md:px-6 py-3 px-4 md:text-md text-sm rounded-lg bg-blue-500 text-white font-semibold shadow hover:bg-blue-600 transition"
               >
                 View My Work
               </a>
@@ -40,7 +40,7 @@ function Home() {
 
           {/* Right Side Image */}
           <div className="flex-1 flex justify-center">
-            <div className="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
+            <div className="w-70 h-70 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
               <img
                 src={profileImage}
                 alt="Nisha Bangali"

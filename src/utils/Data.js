@@ -15,7 +15,6 @@ import weatherImage from "../assets/weatherAppCover.webp"
 import aiChatbotImage from "../assets/aiChatBot.webp"
 import jobBoardImage from "../assets/jobBoard.jpg"
 import quizAppImage from "../assets/quizApp.jfif"
-import { img } from "framer-motion/client";
 
 export const projects = [
   {

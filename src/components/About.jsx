@@ -1,5 +1,6 @@
 
 import React from "react";
+import resume from "../assets/resume.pdf"
 
 function About() {
   return (
@@ -37,7 +38,8 @@ function About() {
 
             <div className="mt-6">
               <a
-                href="#"
+                href={resume}
+                target="_blank"
                 className="px-6 py-3 rounded-lg bg-blue-500 text-white font-semibold shadow hover:bg-blue-600 transition"
               >
                 My Resume
