@@ -1,10 +1,8 @@
-
-
 import React, { useState, useEffect } from "react";
 import { useTheme } from "../../context/ThemeContext";
 
 function Header() {
-   const { theme, toggleTheme } = useTheme();
+  const { theme, toggleTheme } = useTheme();
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Close menu on resize
@@ -19,8 +17,8 @@ function Header() {
       <div className="container mx-auto px-6">
         <nav className="flex justify-between items-center py-4">
           {/* Logo */}
-          <div className="text-2xl font-bold text-gray-900 dark:text-white">
-            Nisha<span className="text-blue-500">Bangali</span>
+          <div className="text-2xl font-bold text-gray-900 dark:text-white transition-colors duration-300">
+            Nisha<span className="text-blue-500 dark:text-blue-400">Bangali</span>
           </div>
 
           {/* Desktop Nav */}
@@ -44,13 +42,16 @@ function Header() {
             )}
 
             {/* Theme Toggle */}
-            <button onClick={toggleTheme} className="text-center w-10">
-            {theme === "dark" ? (
-              <i className="fas fa-sun text-blue-800"></i>
-            ) : (
-              <i className="fas fa-moon text-blue-500"></i>
-            )}
-          </button>
+            <button
+              onClick={toggleTheme}
+              className="text-center w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+            >
+              {theme === "dark" ? (
+                <i className="fas fa-sun text-yellow-400"></i>
+              ) : (
+                <i className="fas fa-moon text-blue-500"></i>
+              )}
+            </button>
           </ul>
 
           {/* Mobile Hamburger */}
@@ -67,4 +68,3 @@ function Header() {
 }
 
 export default Header;
-
