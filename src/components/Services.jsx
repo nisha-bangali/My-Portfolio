@@ -15,7 +15,7 @@ function Services() {
         </h2>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-8">
           {/* Web Development */}
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8 text-center transition transform hover:-translate-y-1 hover:shadow-xl">
             <div className="text-4xl text-blue-500 mb-4">

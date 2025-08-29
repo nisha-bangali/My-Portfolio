@@ -13,6 +13,7 @@ export default function ThemeToggle() {
     } else {
       document.documentElement.classList.remove("dark");
       localStorage.theme = "light";
+     
     }
   }, [dark]);
 
