@@ -14,7 +14,7 @@ function Footer() {
   </div>
 
   {/* Links */}
-  <div className="flex flex-wrap justify-center gap-4 mr-5">
+  <div className="flex flex-wrap  justify-left gap-4 ">
     {["Home", "About", "Skills", "Services", "Projects", "Contact"].map(
       (link, index) => (
         <a
@@ -32,7 +32,7 @@ function Footer() {
   <div className="flex gap-5 text-2xl">
     <a
       href="https://github.com/nisha-bangali"
-      target="_blank"
+      target="_blank" 
       rel="noreferrer"
       className="hover:text-blue-500 dark:hover:text-blue-400 transition"
     >

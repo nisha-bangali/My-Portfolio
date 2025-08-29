@@ -57,7 +57,7 @@ function Projects() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded-lg font-semibold hover:bg-blue-500 hover:text-white transition"
+                  className="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded-lg font-semibold hover:bg-blue-500 hover:text-white transition cursor-pointer"
                 >
                   View Project
                 </a>

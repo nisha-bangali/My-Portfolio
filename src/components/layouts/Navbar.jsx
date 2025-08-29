@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { useTheme } from "../../context/ThemeContext";
+// import { useTheme } from "../../context/ThemeContext";
+import ThemeToggle from "../ToggleTheme";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Header() {
-  const { theme, toggleTheme } = useTheme();
+  // const { theme, toggleTheme } = useTheme();
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Close menu on resize
@@ -30,28 +32,20 @@ function Header() {
             {["home", "about", "skills", "services", "projects", "contact"].map(
               (item) => (
                 <li key={item} className="my-2 md:my-0">
-                  <a
+                  <AnchorLink 
                     href={`#${item}`}
                     onClick={() => setMenuOpen(false)}
                     className="block text-gray-800 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 font-medium transition-colors duration-300"
                   >
                     {item.charAt(0).toUpperCase() + item.slice(1)}
-                  </a>
+                  </AnchorLink>
                 </li>
               )
             )}
 
             {/* Theme Toggle */}
-            <button
-              onClick={toggleTheme}
-              className="text-center w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition"
-            >
-              {theme === "dark" ? (
-                <i className="fas fa-sun text-yellow-400"></i>
-              ) : (
-                <i className="fas fa-moon text-blue-500"></i>
-              )}
-            </button>
+            <ThemeToggle />
+            
           </ul>
 
           {/* Mobile Hamburger */}

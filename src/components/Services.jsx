@@ -57,6 +57,39 @@ function Services() {
               design for your applications.
             </p>
           </div>
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8 text-center transition transform hover:-translate-y-1 hover:shadow-xl">
+            <div className="text-4xl text-blue-500 mb-4">
+              <i className="fas fa-shopping-cart"></i>
+            </div>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-3">
+             E-Commerce Development
+            </h3>
+            <p className="text-gray-600 dark:text-gray-400">
+              Custom online stores with secure payment gateways, product management, and user-friendly interfaces.
+            </p>
+          </div>
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8 text-center transition transform hover:-translate-y-1 hover:shadow-xl">
+            <div className="text-4xl text-blue-500 mb-4">
+              <i className="fas fa-tachometer-alt"></i>
+            </div>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-3">
+             Performance Optimization
+            </h3>
+            <p className="text-gray-600 dark:text-gray-400">
+              Enhancing speed, scalability, and efficiency of applications for better user experience.
+            </p>
+          </div>
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8 text-center transition transform hover:-translate-y-1 hover:shadow-xl">
+            <div className="text-4xl text-blue-500 mb-4">
+              <i className="fas fa-plug"></i>
+            </div>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-3">
+              API Integration
+            </h3>
+            <p className="text-gray-600 dark:text-gray-400">
+              Seamless integration of third-party APIs and services to enhance your application's capabilities.
+            </p>
+          </div>
         </div>
       </div>
     </section>
