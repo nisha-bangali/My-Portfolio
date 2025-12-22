@@ -1,6 +1,7 @@
 
 import React from "react";
 import { projects } from "../utils/Data";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -24,11 +25,13 @@ function Projects() {
             >
               {/* Image */}
               <div className="h-48 w-full overflow-hidden">
-                <img
+              <Link to={`/projects/${project.id}`}>
+                  <img
                   src={project.img}
                   alt={project.title}
                   className="w-full h-full object-cover"
                 />
+                </Link>
               </div>
 
               {/* Details */}
@@ -37,17 +40,17 @@ function Projects() {
                   {project.title}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
-                  {project.desc}
+                  {project.shortDescription}
                 </p>
 
                 {/* Tags */}
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag, i) => (
+                  {project.techStack.map((techStack, i) => (
                     <span
                       key={i}
                       className="bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 px-2 py-1 rounded text-xs font-medium"
                     >
-                      {tag}
+                      {techStack}
                     </span>
                   ))}
                 </div>

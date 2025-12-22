@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/layouts/Navbar";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Services from "./components/Services";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import Footer from "./components/layouts/Footer";
-import Home from "./components/Home";
+import Home from "./pages/Home";
+import ProjectDetails from "./components/ProjectDetail";
+
 
 // import "./styles/globle.css";
 
@@ -35,12 +33,17 @@ function App() {
   return (
     <>
       <Header toggleTheme={toggleTheme} isDark={isDark} />
-      <Home />
+      {/* <Home />
       <About />
       <Skills />
       <Services />
       <Projects />
-      <Contact />
+      <Contact /> */}
+
+      <Routes>
+        <Route path="/" element={<Home />} />            
+        <Route path="/projects/:id" element={<ProjectDetails />} />
+      </Routes>
       <Footer />   
     </>
   );
