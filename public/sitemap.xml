@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
+  <url>
+    <loc>https://nishabangali-dev.vercel.app/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Projects Listing Page (if exists) -->
+  <url>
+    <loc>https://nishabangali-dev.vercel.app/projects</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Individual Project Pages -->
+  <url>
+    <loc>https://nishabangali-dev.vercel.app/projects/ai-job-portal</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Add ALL your projects like this -->
+  <url>
+    <loc>https://nishabangali-dev.vercel.app/projects/lms-app</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://nishabangali-dev.vercel.app/projects/real-time-chat-app</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://nishabangali-dev.vercel.app/projects/food-delivery-app</loc>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
