@@ -68,6 +68,7 @@ function Contact() {
             <img
               src="https://b2cdata.marketing.moveaws.com/images/contact/contact-hero.png"
               alt="Contact illustration"
+              loading="lazy"
               className="rounded-lg shadow-md"
             />
           </div>

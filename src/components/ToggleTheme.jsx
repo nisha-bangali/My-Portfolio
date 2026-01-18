@@ -21,6 +21,8 @@ export default function ThemeToggle() {
     <button
       className="w-10 h-10 flex items-center justify-center bg-gray-200 dark:bg-gray-800 text-black dark:text-white rounded-full cursor-pointer"
       onClick={() => setDark(!dark)}
+      title="Theme"
+      name="theme"
     >
       {dark ? <i className="fas fa-sun text-yellow-400"></i> : <i className="fas fa-moon text-blue-500"></i>}
     </button>

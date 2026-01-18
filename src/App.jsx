@@ -4,6 +4,10 @@ import Header from "./components/layouts/Navbar";
 import Footer from "./components/layouts/Footer";
 import Home from "./pages/Home";
 import ProjectDetails from "./components/ProjectDetail";
+import About from "./pages/About";
+import HireMe from "./pages/HireMe";
+import Projects from "./pages/AllProjects";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 // import "./styles/globle.css";
@@ -33,15 +37,12 @@ function App() {
   return (
     <>
       <Header toggleTheme={toggleTheme} isDark={isDark} />
-      {/* <Home />
-      <About />
-      <Skills />
-      <Services />
-      <Projects />
-      <Contact /> */}
-
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />            
+        <Route path="/about" element={<About />} />            
+        <Route path="/hire-me" element={<HireMe />} />            
+        <Route path="/projects" element={<Projects />} />            
         <Route path="/projects/:id" element={<ProjectDetails />} />
       </Routes>
       <Footer />   

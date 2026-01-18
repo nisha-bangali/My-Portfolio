@@ -21,7 +21,7 @@ function ProjectDetails() {
         
         {/* Back Button */}
         <Link
-          to="/"
+          to="/projects"
           className="inline-block mb-6 text-blue-500 hover:underline"
         >
           ← Back to Projects
@@ -32,6 +32,7 @@ function ProjectDetails() {
           <img
             src={project.img}
             alt={project.title}
+            loading="lazy"
             className="w-full h-full object-cover"
           />
         </div>
@@ -78,7 +79,7 @@ function ProjectDetails() {
         {/* Buttons */}
         <div className="flex flex-wrap gap-4">
           <a
-            href={project.github}
+            href="https://github.com/nisha-bangali"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition"
@@ -86,14 +87,6 @@ function ProjectDetails() {
             GitHub Code
           </a>
 
-          <a
-            href={project.live}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
-          >
-            Live Demo
-          </a>
         </div>
       </div>
     </section>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 // import { useTheme } from "../../context/ThemeContext";
 import ThemeToggle from "../ToggleTheme";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Link } from "react-router-dom";
 
 function Header() {
   // const { theme, toggleTheme } = useTheme();
@@ -20,7 +21,9 @@ function Header() {
         <nav className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="text-2xl font-bold text-gray-900 dark:text-white transition-colors duration-300">
-            Nisha<span className="text-blue-500 dark:text-blue-400">Bangali</span>
+            <Link to="/">
+              Nisha<span className="text-blue-500 dark:text-blue-400">Bangali</span>
+            </Link>
           </div>
 
           {/* Desktop Nav */}
@@ -43,8 +46,8 @@ function Header() {
               )
             )}
 
-            {/* Theme Toggle */}
-            <ThemeToggle />
+          {/* Theme Toggle */}
+          <ThemeToggle />
             
           </ul>
 

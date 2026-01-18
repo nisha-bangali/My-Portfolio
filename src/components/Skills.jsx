@@ -48,6 +48,7 @@ function Skills() {
               <img
                 src={skill.icon}
                 alt={skill.name}
+                loading="lazy"
                 className="w-16 h-16 mb-3"
               />
               <p className="font-medium text-gray-800 dark:text-gray-200">
