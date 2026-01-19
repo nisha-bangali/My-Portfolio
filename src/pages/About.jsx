@@ -2,16 +2,15 @@
 
 import React from "react";
 import profileImg from "../assets/profile-img.png";
-import Seo from "../seo/SEO";
 
 const About = () => {
   return (
     <>
-      <Seo
+      {/* <Seo
         title="Nisha Bangali Full Stack Developer (MERN Stack)"
         description="I build scalable, secure, and user-centric web applications with clean code, modern UI, and performance-focused architecture."
         keywords="MERN Stack Developer, React.js, Node.js, Express.js, and MongoDB"
-      />
+      /> */}
 
       <main className="bg-white dark:bg-gray-900 transition-colors duration-300">
 

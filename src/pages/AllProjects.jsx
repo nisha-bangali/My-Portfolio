@@ -1,16 +1,15 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import { projects } from "../utils/Data";
-import Seo from "../seo/SEO";
 
 const Projects = () => {
   return (
     <>
-    <Seo 
+    {/* <Seo 
       title="MERN Stack Developer Projects"
       description=" A collection of real-world projects showcasing my skills in MERN Stack, UI/UX design, and modern web development."
       keywords="MERN Stack Developer, React js, Node js, Express js, MongoDB"
-      />
+      /> */}
     <section className="min-h-screen bg-gray-50 dark:bg-gray-900 py-20 px-4">
       <div className="max-w-7xl mx-auto">
         

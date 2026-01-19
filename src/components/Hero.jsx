@@ -1,17 +1,16 @@
 
 import React from "react";
 import profileImage from "../assets/profile-img.png";
-import Seo from "../seo/SEO";
 import { Link } from "react-router-dom";
 
 function Hero() {
   return (
     <>
-       <Seo
+       {/* <Seo
         title="Nisha Bangali | Full Stack Developer (MERN Stack)"
         description="Full Stack Developer (MERN Stack) skilled in building responsive, scalable, and user-centric applications | React.js | Node.js | MongoDB"
         keywords="Nisha Bangali, MERN Stack Developer, React Developer, Full Stack Developer, Node.js, MongoDB"
-      />
+      /> */}
       <section
         id="home"
         className="pt-32 pb-20 md:mt-12 mt-6 bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300"
