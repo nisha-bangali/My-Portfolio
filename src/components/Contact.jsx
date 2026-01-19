@@ -138,7 +138,7 @@ function Contact() {
                     id="message"
                     name="message"
                     placeholder="Enter your message"
-                    className="p-3 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 min-h-[150px] resize-y focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="p-3 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 min-h-37.5 resize-y focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
                   <ErrorMessage
                     name="message"
