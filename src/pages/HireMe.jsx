@@ -24,7 +24,7 @@ const HireMe = () => {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-lg transition">
+            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-2xl transition">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
                 MERN Stack Expertise
               </h3>
@@ -34,7 +34,7 @@ const HireMe = () => {
               </p>
             </div>
 
-            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-lg transition">
+            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-2xl transition">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
                 Clean & Scalable Code
               </h3>
@@ -44,7 +44,7 @@ const HireMe = () => {
               </p>
             </div>
 
-            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-lg transition">
+            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-2xl transition">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
                 Real-World Experience
               </h3>
@@ -54,7 +54,7 @@ const HireMe = () => {
               </p>
             </div>
 
-            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-lg transition">
+            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-2xl transition">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
                 Responsive UI / UX
               </h3>
@@ -64,7 +64,7 @@ const HireMe = () => {
               </p>
             </div>
 
-            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-lg transition">
+            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-2xl transition">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
                 Strong Problem Solver
               </h3>
@@ -74,7 +74,7 @@ const HireMe = () => {
               </p>
             </div>
 
-            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-lg transition">
+            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-2xl transition">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
                 Team-Friendly & Reliable
               </h3>
