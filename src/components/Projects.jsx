@@ -23,12 +23,17 @@ function Projects() {
             <ProjectCard project={project} index={index} />
           ))}
         </div>
-        <button className="bg-blue-500 px-6 py-3 my-8 mx-130 font-bold text-white hover:bg-blue-600 rounded-xl duration-300 transition-all">
-          <Link to="/projects">View All</Link>
-          </button>
+        <div className="flex justify-center mt-10">
+          <Link
+            to="/projects"
+            className="bg-blue-500 px-6 py-3 font-bold text-white hover:bg-blue-600 rounded-xl transition-all duration-300"
+          >
+            View All
+          </Link>
+        </div>
       </div>
     </section>
   );
-} 
+}
 
 export default Projects;
